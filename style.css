@@ -1,10 +1,14 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
 #bloc_page
 {
 	max-width: 1440px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column; 
+  font-family: "Raleway", "Sans serif", "Arial";
+  flex-direction: column; 
 }
 .logo {width: 100px;}
 
@@ -14,24 +18,65 @@ nav ul
   list-style-type: none;
   justify-content: flex-start;
   width:255px;
+  padding : 21px;
+  margin-top: 0px;
+  color: #DEEBFF;
   padding : 21px; 
   position: absolute;
   top: 0px;
   right: 20px;
   flex-direction: row;
 }
+nav li {margin-right: 15px;}
 
 header h1 {margin-bottom: 0px;}
 
 header p {margin-top: 2px;}
 
+#zone_recherche
+{
+  display: table;
+  table-layout: fixed;
+  word-spacing: -2em;
+}
+
+.searchicone
+{ background-color: #F2F2F2;
+  padding-left: 15px;
+  padding-top: 9.9px;
+  padding-bottom: 13px;
+  padding-right: 15px;
+  border-radius: 12px 0px 0px 12px;
+  display: inline-block;
+  word-spacing: normal;  
+ }
+.search_zone
+{
+  padding: 11px;
+  border: 0.1px solid #F2F2F2;
+}
+.button_search
+{
+  color: white;
+  font-weight: bold;
+  padding-top: 9.5px;
+  padding-bottom: 11px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #0065FC;
+  border-radius: 0px 12px 12px 0px;
+}
+
 nav li {margin-right: 15px;}
+
 /*********Bloc filtre************/
 
 span
 {
   border: 2px solid white;
   border-radius: 20px;
+  padding: 8px;
+  font-weight: bold;
   padding: 8px
 
 }
@@ -49,6 +94,37 @@ margin-right: 650px;
 
 .eco
 {
+  border: 2px solid #F2F2F2;
+  border-radius: 20px;
+  padding: 8px;
+  color: blue;
+  }
+
+  div .money
+  {
+   background-color: black;
+  }
+
+.fam
+{
+  border: 2px solid #F2F2F2;
+  border-radius: 20px;
+  padding: 8px; 
+  color: blue;
+  }
+.rom
+{
+  border: 2px solid #F2F2F2;
+  border-radius: 20px;
+  padding: 8px;
+  color: blue;
+  }
+.ani
+{
+  border: 2px solid #F2F2F2;
+  border-radius: 20px;
+  padding: 8px;
+  color: blue;
   border: 2px solid;
   border-radius: 20px;
   padding: 8px;
@@ -71,7 +147,6 @@ margin-right: 650px;
   border: 2px solid;
   border-radius: 20px;
   padding: 8px;
-
   }
 
   /**********************hebergement*********************/
@@ -140,10 +215,6 @@ width: 300px;
 margin-top: 85px;
 margin-right: 50px;
 
-
-
-
-  
  }
 
 /**********************bloc hebergement+populaire*********************/
