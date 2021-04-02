@@ -10,6 +10,7 @@
   font-family: "Raleway", "Sans serif", "Arial";
   flex-direction: column; 
 }
+
 .logo {width: 100px;}
 
 nav ul
@@ -265,3 +266,46 @@ margin-right: 50px;
   display: flex;
   justify-content: space-between;
   }
+
+  @media all and (max-width: 1080px)
+{
+  #bloc_page
+  {
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 1080px)
+{
+ .logo{
+  width: 200px;
+ }
+  nav ul
+  {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    font-size: 25px;
+
+  }
+
+  #hebergement
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #populaire{
+
+    width: auto;
+
+  }
+
+  #bloc1
+  {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
