@@ -34,14 +34,14 @@ header h1 {margin-bottom: 0px;}
 
 header p {margin-top: 2px;}
 
-#zone_recherche
+#search_bar
 {
   display: table;
   table-layout: fixed;
   word-spacing: -2em;
 }
 
-.searchicone
+.search_icone
 { background-color: #F2F2F2;
   padding-left: 15px;
   padding-top: 9.9px;
@@ -101,11 +101,6 @@ margin-right: 650px;
   color: blue;
   }
 
-  div .money
-  {
-   background-color: black;
-  }
-
 .fam
 {
   border: 2px solid #F2F2F2;
@@ -126,28 +121,6 @@ margin-right: 650px;
   border-radius: 20px;
   padding: 8px;
   color: blue;
-  border: 2px solid;
-  border-radius: 20px;
-  padding: 8px;
- 
-  }
-.fam
-{
-  border: 2px solid;
-  border-radius: 20px;
-  padding: 8px; 
-  }
-.rom
-{
-  border: 2px solid;
-  border-radius: 20px;
-  padding: 8px;
-  }
-.ani
-{
-  border: 2px solid;
-  border-radius: 20px;
-  padding: 8px;
   }
 
   /**********************hebergement*********************/
@@ -219,7 +192,7 @@ margin-right: 50px;
  }
 
 /**********************bloc hebergement+populaire*********************/
-#bloc1 
+#bloc_1 
  {
   /*faire flex box justify content, space beetween,*/
   background-color: yellow;
@@ -229,33 +202,57 @@ margin-right: 50px;
  }
   /**********************partie activité*********************/
 
-.img_mar
+.img_mar_1 
 {
-  width: 180px;
-  height: 100px;}
+  width: 350px;
+  height: 400px;
+}
+
+.img_mar_2
+{
+  width: 250px;
+  height: 150px;}
+
+.img_mar_3
+{
+  width: 350px;
+  height: 400px;}
+.img_mar_4
+{
+  width: 250px;
+  height: 150px;}
+.img_mar_5
+{
+  width: 250px;
+  height: 150px;}
+.img_mar_6
+{
+  width: 250px;
+  height: 150px;}
 
 #activite_marseille
 {
   display: grid;
-  grid-template-columns: auto auto auto auto; 
-  grid-gap: 50px;
+  grid-template-columns: 350px 250px 350px 250px; 
+  grid-gap: 30px;
   background-color: blue;
-  padding: 20px;
+  padding: 0px;
 }
 /*propriete bloc contenu dans activité marseille*/
 #activite_marseille> div 
 {
   background-color: red;
-  text-align: center;
-  padding: 1px 0px;
+  
+  padding: 0px 0px;
 }
 /*organisation des items co*/
-.item1
+.act_1
 {
   grid-row: 1/span 2;
+
 }
 
-.item3
+.act_3
 {
   grid-row: 1/span 2;
   grid-column-start: 3
@@ -265,6 +262,12 @@ margin-right: 50px;
   {
   display: flex;
   justify-content: space-between;
+  background-color: #F2F2F2;
+  }
+
+  #assistance
+  {
+    margin-right: 500px;
   }
 
   @media all and (max-width: 1080px)
@@ -302,7 +305,20 @@ margin-right: 50px;
 
   }
 
-  #bloc1
+  #bloc_1
+  {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #activite_marseille
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  footer
   {
     display: flex;
     flex-direction: column;
