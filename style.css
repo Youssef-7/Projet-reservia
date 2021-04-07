@@ -95,45 +95,102 @@ span
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-margin-right: 650px;
-margin-bottom: 10px;
-
- 
+align-items: center;
+margin-right: 630px;
+margin-bottom: 10px; 
 }
 /*filtre bordure*/
-
-.eco
+#money
 {
   border: 2px solid #F2F2F2;
   border-radius: 20px;
+}
+
+#family
+{
+  border: 2px solid #F2F2F2;
+  border-radius: 20px;
+}
+
+#romantique
+{
+  border: 2px solid #F2F2F2;
+  border-radius: 20px;
+}
+#animal
+{
+  border: 2px solid #F2F2F2;
+  border-radius: 20px;
+}
+  /*contenant de la bordure*/
+.eco
+{
   padding: 8px;
-  color: blue;
-  }
+ color: black;
+ font-weight: bold;
+ text-decoration: none;
+  } 
 
 .fam
 {
-  border: 2px solid #F2F2F2;
-  border-radius: 20px;
   padding: 8px; 
-  color: blue;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
   }
 .rom
 {
-  border: 2px solid #F2F2F2;
-  border-radius: 20px;
+
   padding: 8px;
-  color: blue;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
   }
 .ani
 {
-  border: 2px solid #F2F2F2;
-  border-radius: 20px;
   padding: 8px;
-  color: blue;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
   }
+  /*bordure icone*/
+div .money{
 
+  background-color: #DEEBFF;
+  margin: 0px;
+  padding: 5px;
+  color: blue;
+  border: 2px solid #DEEBFF;
+  border-radius: 50px;
+}
+div .family{
+
+  background-color: #DEEBFF;
+  margin: 0px;
+  padding: 5px;
+  color: blue;
+  border: 2px solid #DEEBFF;
+  border-radius: 50px;
+}
+div .romantique{
+
+  background-color: #DEEBFF;
+  margin: 0px;
+  padding: 5px;
+  color: blue;
+  border: 2px solid #DEEBFF;
+  border-radius: 50px;
+}
+div .animal{
+
+  background-color: #DEEBFF;
+  margin: 0px;
+  padding: 5px;
+  color: blue;
+  border: 2px solid #DEEBFF;
+  border-radius: 50px;
+}
   /**********************hebergement*********************/
-
 /*titre hebergement*/
 .heb{
 
@@ -283,12 +340,13 @@ margin-right: 50px;
 {
   #bloc_page
   {
-    width: auto;
-    margin: 0 auto;
+    width: 900px;
+    margin: auto;
   }
 }
 
 @media all and (max-width: 1080px)
+/**********header**************/
 {
  .logo{
   width: 200px;
@@ -296,12 +354,44 @@ margin-right: 50px;
   nav ul
   {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: flex-start;
     font-size: 25px;
+    height: 130px;
+    width: 900px;
 
   }
 
+  .inscrire
+  {
+    align-self: flex-end;
+    flex-direction: row-reverse;
+    margin-left: 580px;
+    margin-top: 20px;
+  }
+.hebergement{
+    
+    margin-left: 80px;
+
+  }
+
+  header h1{
+    margin-top: 45px;
+  }
+
+  #search_bar{
+    width: 400px;
+    margin: auto;
+  }
+
+.filtre
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
   #hebergement
   {
     display: flex;
