@@ -509,5 +509,16 @@ border-radius: 20px;
   border-radius: 10px;
   box-shadow: 2px 2px 3px grey;
 }
+
+/*-************partie activité***************/
+
+  footer
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
+/*mettre conteneur pour les images + propriete overflow
+mettre plusieurs class dans conteneur*/
